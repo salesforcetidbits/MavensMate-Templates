@@ -206,6 +206,19 @@
             ]
         },
         {  
+            "name":"Test Class w/ setup method",
+            "file_name":"TestClassWithSetup.cls",
+            "description":"A test class with a setup method.",
+            "author":"Robert Strunk @SF_Tidbits",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyTestClass"
+                }
+            ]
+        },        
+        {  
             "name":"Trigger Handler",
             "file_name":"TriggerHandler.cls",
             "description":"An Interface that handles Trigger actions",
